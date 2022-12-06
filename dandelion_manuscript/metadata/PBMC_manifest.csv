@@ -1,0 +1,3 @@
+﻿Donor,organ,age,Date_of_sample,Sample,10x kit,target_recovery,cells_loaded,sample_no,sanger_sample_ID,sequence_name,BCR,TCR
+Stemcells,PBMC,adult,19/07/2022,AM1_treated,5'v2.0,10000,17653,1,AM1_treated,HCA_F_Imm13086136,HCA_F_Imm13086148,HCA_F_Imm13086142
+Stemcells,PBMC,adult,19/07/2022,AM1_control,5'v2.0,10000,16698,2,AM1_control,HCA_F_Imm13086137,HCA_F_Imm13086149,HCA_F_Imm13086143
