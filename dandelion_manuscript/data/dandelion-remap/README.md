@@ -37,4 +37,4 @@ This refers to output from cellranger 6.1.2 ran with 5.0.0 reference modified to
 
 ## Failed samples
 
-Please note that there are 4 `abTCR` samples (in `abTCR_metadata_failed.csv`) where the libraries failed, producing little to no contigs. These were not further processed and ignored for the downstream analyses.
+Please note that there are 4 `abTCR` samples (in `abTCR_metadata_failed.csv`) and 1 `BCR` sample (`FCA_gut8090118`) where the libraries failed, producing little to no contigs. These were not further processed and ignored for the downstream analyses.
