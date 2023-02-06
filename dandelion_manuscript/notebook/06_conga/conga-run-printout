@@ -1,41 +1,24 @@
-repeat?? 2 4 ('TRAV1-2*01', 'TRAJ33*01', 'CAVDSNYQLIW', 'tgtgctgtggatagcaactatcagttaatctgg') ('TRAV20*01', 'TRAJ33*01', 'CAVDSNYQLIW', 'tgt
-gctgtggatagcaactatcagttaatctgg')
-repeat?? 3 5 ('TRAV8-4*01', 'TRAJ40*01', 'CAVSTSGTYKYIF', 'tgtgctgtgagtacctcaggaacctacaaatacatcttt') ('TRAV8-6*01', 'TRAJ40*01', 'CAVSTSGTY
-KYIF', 'tgtgctgtgagtacctcaggaacctacaaatacatcttt')
-repeat?? 37 19 ('TRBV11-2*01', 'TRBJ2-2*01', 'CASSLQGAGELFF', 'tgtgccagcagcttacagggggccggggagctgtttttt') ('TRBV7-3*01', 'TRBJ2-2*01', 'CASS
-LQGAGELFF', 'tgtgccagcagcttacagggggccggggagctgtttttt')
-repeat?? 1 19 ('TRBV7-2*01', 'TRBJ2-1*01', 'CASSLRGGGAYNEQFF', 'tgtgccagcagcttaaggggcgggggggcctacaatgagcagttcttc') ('TRBV7-3*01', 'TRBJ2-1*
-01', 'CASSLRGGGAYNEQFF', 'tgtgccagcagcttaaggggcgggggggcctacaatgagcagttcttc')
-repeat?? 48 1 ('TRBV11-2*01', 'TRBJ1-6*01', 'CASSFDRGYNSPLHF', 'tgtgccagcagctttgacaggggatataattcacccctccacttt') ('TRBV7-2*01', 'TRBJ1-6*01'
-, 'CASSFDRGYNSPLHF', 'tgtgccagcagctttgacaggggatataattcacccctccacttt')
-repeat?? 5 56 ('TRBV7-2*01', 'TRBJ1-5*01', 'CASSLGGNSNQPQHF', 'tgtgccagcagcttaggggggaatagcaatcagccccagcatttt') ('TRBV7-9*01', 'TRBJ1-5*01',
- 'CASSLGGNSNQPQHF', 'tgtgccagcagcttaggggggaatagcaatcagccccagcatttt')
-repeat?? 33 1 ('TRBV6-2*01', 'TRBJ1-1*01', 'CASSYRRSEAFF', 'tgtgccagcagttacagaaggagtgaagctttcttt') ('TRBV6-5*01', 'TRBJ1-1*01', 'CASSYRRSEA
-FF', 'tgtgccagcagttacagaaggagtgaagctttcttt')
-repeat?? 3 11 ('TRBV7-2*01', 'TRBJ2-5*01', 'CASSLAGGQETQYF', 'tgtgccagcagcttagcgggggggcaagagacccagtacttc') ('TRBV7-3*01', 'TRBJ2-5*01', 'CA
-SSLAGGQETQYF', 'tgtgccagcagcttagcgggggggcaagagacccagtacttc')
-repeat?? 28 115 ('TRBV6-5*01', 'TRBJ1-1*01', 'CASSYWNTEAFF', 'tgtgccagcagttactggaacactgaagctttcttt') ('TRBV6-6*01', 'TRBJ1-1*01', 'CASSYWNT
-EAFF', 'tgtgccagcagttactggaacactgaagctttcttt')
-repeat?? 7 39 ('TRBV7-2*01', 'TRBJ1-1*01', 'CASSLDRNTEAFF', 'tgtgccagcagcttggacaggaacactgaagctttcttt') ('TRBV7-3*01', 'TRBJ1-1*01', 'CASSLD
-RNTEAFF', 'tgtgccagcagcttggacaggaacactgaagctttcttt')
-repeat?? 7 27 ('TRBV12-4*01', 'TRBJ1-6*01', 'CASSEAGRNSPLHF', 'tgtgccagcagtgaagcagggaggaattcacccctccacttt') ('TRBV6-1*01', 'TRBJ1-6*01', 'C
-ASSEAGRNSPLHF', 'tgtgccagcagtgaagcagggaggaattcacccctccacttt')
-repeat?? 3 6 ('TRAV1-2*01', 'TRAJ33*01', 'CAVRDSNYQLIW', 'tgtgctgtgagagatagcaactatcagttaatctgg') ('TRAV3*01', 'TRAJ33*01', 'CAVRDSNYQLIW', 
-'tgtgctgtgagagatagcaactatcagttaatctgg')   
-repeat?? 46 3 ('TRBV10-3*01', 'TRBJ1-5*01', 'CAISGTNNQPQHF', 'tgtgccatcagtgggacaaacaatcagccccagcatttt') ('TRBV6-5*01', 'TRBJ1-5*01', 'CAISG
-TNNQPQHF', 'tgtgccatcagtgggacaaacaatcagccccagcatttt')
-repeat?? 37 12 ('TRBV11-2*01', 'TRBJ2-3*01', 'CASSLGGNTDTQYF', 'tgtgccagcagcttaggaggcaacacagatacgcagtatttt') ('TRBV7-2*01', 'TRBJ2-3*01', '
-CASSLGGNTDTQYF', 'tgtgccagcagcttaggaggcaacacagatacgcagtatttt')
+repeat?? 2 4 ('TRAV1-2*01', 'TRAJ33*01', 'CAVDSNYQLIW', 'tgtgctgtggatagcaactatcagttaatctgg') ('TRAV20*01', 'TRAJ33*01', 'CAVDSNYQLIW', 'tgtgctgtggatagcaactatcagttaatctgg')
+repeat?? 37 19 ('TRBV11-2*01', 'TRBJ2-2*01', 'CASSLQGAGELFF', 'tgtgccagcagcttacagggggccggggagctgtttttt') ('TRBV7-3*01', 'TRBJ2-2*01', 'CASSLQGAGELFF', 'tgtgccagcagcttacagggggccggggagctgtttttt')
+repeat?? 1 19 ('TRBV7-2*01', 'TRBJ2-1*01', 'CASSLRGGGAYNEQFF', 'tgtgccagcagcttaaggggcgggggggcctacaatgagcagttcttc') ('TRBV7-3*01', 'TRBJ2-1*01', 'CASSLRGGGAYNEQFF', 'tgtgccagcagcttaaggggcgggggggcctacaatgagcagttcttc')
+repeat?? 5 56 ('TRBV7-2*01', 'TRBJ1-5*01', 'CASSLGGNSNQPQHF', 'tgtgccagcagcttaggggggaatagcaatcagccccagcatttt') ('TRBV7-9*01', 'TRBJ1-5*01', 'CASSLGGNSNQPQHF', 'tgtgccagcagcttaggggggaatagcaatcagccccagcatttt')
+repeat?? 3 11 ('TRBV7-2*01', 'TRBJ2-5*01', 'CASSLAGGQETQYF', 'tgtgccagcagcttagcgggggggcaagagacccagtacttc') ('TRBV7-3*01', 'TRBJ2-5*01', 'CASSLAGGQETQYF', 'tgtgccagcagcttagcgggggggcaagagacccagtacttc')
+repeat?? 28 115 ('TRBV6-5*01', 'TRBJ1-1*01', 'CASSYWNTEAFF', 'tgtgccagcagttactggaacactgaagctttcttt') ('TRBV6-6*01', 'TRBJ1-1*01', 'CASSYWNTEAFF', 'tgtgccagcagttactggaacactgaagctttcttt')
+repeat?? 7 39 ('TRBV7-2*01', 'TRBJ1-1*01', 'CASSLDRNTEAFF', 'tgtgccagcagcttggacaggaacactgaagctttcttt') ('TRBV7-3*01', 'TRBJ1-1*01', 'CASSLDRNTEAFF', 'tgtgccagcagcttggacaggaacactgaagctttcttt')
+repeat?? 3 6 ('TRAV1-2*01', 'TRAJ33*01', 'CAVRDSNYQLIW', 'tgtgctgtgagagatagcaactatcagttaatctgg') ('TRAV3*01', 'TRAJ33*01', 'CAVRDSNYQLIW', 'tgtgctgtgagagatagcaactatcagttaatctgg')
+repeat?? 3 5 ('TRAV8-4*01', 'TRAJ40*01', 'CAVSTSGTYKYIF', 'tgtgctgtgagtacctcaggaacctacaaatacatcttt') ('TRAV8-6*01', 'TRAJ40*01', 'CAVSTSGTYKYIF', 'tgtgctgtgagtacctcaggaacctacaaatacatcttt')
+repeat?? 46 3 ('TRBV10-3*01', 'TRBJ1-5*01', 'CAISGTNNQPQHF', 'tgtgccatcagtgggacaaacaatcagccccagcatttt') ('TRBV6-5*01', 'TRBJ1-5*01', 'CAISGTNNQPQHF', 'tgtgccatcagtgggacaaacaatcagccccagcatttt')
+repeat?? 37 12 ('TRBV11-2*01', 'TRBJ2-3*01', 'CASSLGGNTDTQYF', 'tgtgccagcagcttaggaggcaacacagatacgcagtatttt') ('TRBV7-2*01', 'TRBJ2-3*01', 'CASSLGGNTDTQYF', 'tgtgccagcagcttaggaggcaacacagatacgcagtatttt')
 repeat?? 2 43 ('TRBV7-2*01', 'TRBJ2-3*01', 'CASSLTTSGDTDTQYF', 'tgtgccagcagcttaactactagcggggacacagatacgcagtatttt') ('TRBV7-3*01', 'TRBJ2-3*01', 'CASSLTTSGDTDTQYF', 'tgtgccagcagcttaactactagcggggacacagatacgcagtatttt')
 repeat?? 8 2 ('TRBV27*01', 'TRBJ2-3*01', 'CASSLGTSGGDTQYF', 'tgtgccagcagtttagggactagcgggggggatacgcagtatttt') ('TRBV6-1*01', 'TRBJ2-3*01', 'CASSLGTSGGDTQYF', 'tgtgccagcagtttagggactagcgggggggatacgcagtatttt')
-ab_counts: [((2, 2), 957), ((3, 3), 838), ((4, 4), 793), ((1, 1), 744), ((6, 6), 653), ((5, 5), 637), ((7, 6), 537), ((2, 3), 516), ((7, 7), 503), ((3, 4), 473), ((6, 5), 469), ((1, 2), 446), ((9, 9), 432), ((8, 8), 425), ((4, 5), 417), ((8, 7), 377), ((5, 4), 357), ((9, 8), 301), ((5, 6), 301), ((10, 9), 287), ((6, 7), 277), ((4, 3), 264), ((3, 2), 254), ((10, 10), 239), ((11, 10), 220), ((7, 8), 212), ((11, 11), 203), ((11, 9), 183), ((8, 9), 178), ((8, 6), 166), ((12, 11), 158), ((9, 7), 151), ((2, 1), 145), ((7, 5), 138), ((2, 4), 138), ((12, 12), 129), ((10, 8), 126), ((11, 12), 125), ((1, 3), 116), ((10, 11), 115), ((15, 15), 113), ((18, 17), 102), ((13, 13), 99), ((13, 11), 99), ((9, 10), 97), ((14, 14), 93), ((6, 4), 90), ((7, 9), 89), ((17, 15), 87), ((5, 3), 85), ((17, 18), 83), ((17, 17), 83), ((12, 10), 83), ((15, 14), 81), ((14, 12), 78), ((4, 6), 75), ((5, 7), 75), ((13, 12), 68), ((24, 22), 66), ((3, 5), 64), ((16, 16), 63), ((12, 9), 63), ((16, 15), 62), ((21, 18), 58), ((6, 8), 58), ((14, 13), 51), ((15, 13), 51), ((13, 14), 51), ((12, 13), 50), ((10, 7), 50), ((11, 8), 48), ((24, 25), 47), ((19, 21), 45), ((21, 21), 43), ((19, 19), 42), ((14, 15), 42), ((20, 20), 39), ((20, 18), 39), ((15, 12), 35), ((19, 16), 34), ((14, 11), 34), ((9, 11), 34), ((16, 17), 32), ((18, 16), 32), ((18, 15), 31), ((17, 16), 30), ((16, 14), 29), ((13, 10), 29), ((14, 16), 27), ((10, 12), 27), ((4, 7), 27), ((4, 2), 27), ((13, 15), 26), ((8, 10), 25), ((3, 1), 25), ((9, 6), 24), ((11, 7), 23), ((1, 4), 23), ((2, 5), 23), ((22, 21), 22), ((26, 23), 22), ((23, 23), 22), ((20, 23), 22), ((11, 14), 22), ((23, 21), 21), ((21, 19), 21), ((3, 6), 20), ((24, 20), 19), ((20, 19), 19), ((21, 22), 19), ((20, 22), 18), ((21, 20), 18), ((23, 18), 18), ((22, 19), 18), ((18, 18), 17), ((19, 18), 17), ((20, 16), 16), ((19, 14), 16), ((19, 17), 16), ((12, 8), 16), ((17, 14), 15), ((15, 18), 15), ((15, 16), 15), ((20, 14), 15), ((8, 11), 15), ((18, 13), 13), ((5, 8), 13), ((15, 11), 11), ((12, 15), 11), ((12, 14), 11), ((11, 13), 10), ((8, 5), 10), ((12, 7), 8), ((7, 10), 7), ((5, 2), 7), ((11, 6), 6), ((6, 2), 5), ((8, 4), 5), ((7, 4), 5), ((6, 3), 4), ((4, 1), 3)]
-old_unpaired_barcodes: 0 old_paired_barcodes: 18123 new_stringent_paired_barcodes: 889
-compute tcrdist distance matrix for 832 clonotypes
+ab_counts: [((57, 83), 11553), ((2, 2), 933), ((3, 3), 883), ((4, 4), 825), ((1, 1), 753), ((5, 5), 690), ((7, 6), 622), ((2, 3), 597), ((6, 6), 536), ((6, 5), 477), ((1, 2), 477), ((5, 4), 473), ((7, 7), 458), ((3, 4), 457), ((8, 8), 413), ((8, 7), 409), ((4, 5), 381), ((9, 8), 366), ((9, 9), 353), ((4, 3), 297), ((3, 2), 293), ((10, 9), 276), ((5, 6), 259), ((7, 8), 244), ((6, 7), 217), ((10, 10), 186), ((7, 5), 182), ((12, 12), 159), ((10, 8), 158), ((2, 4), 141), ((1, 3), 138), ((11, 10), 137), ((2, 1), 136), ((9, 7), 129), ((11, 11), 117), ((12, 10), 117), ((8, 9), 112), ((8, 6), 106), ((11, 9), 101), ((16, 15), 97), ((14, 14), 92), ((13, 13), 90), ((15, 15), 88), ((3, 5), 83), ((15, 13), 82), ((10, 11), 82), ((9, 10), 81), ((12, 11), 79), ((6, 4), 77), ((16, 14), 76), ((5, 7), 74), ((5, 3), 73), ((13, 12), 68), ((16, 16), 66), ((14, 13), 66), ((14, 12), 65), ((18, 20), 64), ((4, 6), 64), ((17, 15), 63), ((9, 6), 60), ((11, 8), 55), ((18, 17), 54), ((13, 11), 54), ((15, 16), 48), ((8, 5), 47), ((23, 21), 45), ((14, 11), 44), ((17, 18), 39), ((21, 18), 36), ((12, 9), 36), ((19, 18), 35), ((20, 17), 35), ((18, 14), 33), ((11, 12), 33), ((6, 8), 33), ((1, 4), 33), ((18, 16), 32), ((4, 2), 31), ((17, 14), 30), ((13, 10), 29), ((15, 14), 28), ((9, 11), 27), ((2, 5), 26), ((13, 14), 25), ((22, 22), 23), ((7, 9), 23), ((20, 21), 22), ((24, 21), 22), ((17, 19), 22), ((10, 7), 22), ((19, 19), 21), ((18, 18), 20), ((19, 20), 20), ((20, 15), 19), ((8, 10), 18), ((21, 15), 17), ((3, 1), 17), ((20, 16), 16), ((14, 15), 16), ((19, 14), 16), ((15, 11), 16), ((17, 17), 16), ((18, 15), 16), ((11, 7), 16), ((18, 13), 14), ((12, 13), 13), ((16, 13), 13), ((16, 12), 13), ((10, 6), 13), ((15, 12), 12), ((12, 14), 12), ((10, 13), 12), ((11, 13), 11), ((7, 10), 10), ((13, 9), 10), ((3, 6), 10), ((12, 8), 9), ((8, 11), 8), ((6, 9), 8), ((12, 7), 8), ((5, 8), 7), ((4, 7), 7), ((9, 5), 6), ((11, 6), 6), ((6, 2), 5), ((7, 4), 5), ((6, 3), 4), ((5, 1), 4), ((5, 2), 3), ((4, 1), 3)]
+old_unpaired_barcodes: 58 old_paired_barcodes: 28576 new_stringent_paired_barcodes: 889
+compute tcrdist distance matrix for 831 clonotypes
 Using C++ TCRdist calculator
-Read 832 paired tcrs from file conga_tcrdist_clones_AB.dist_50_kpcs_tcrs.tsv
+Read 831 paired tcrs from file conga_tcrdist_clones_AB.dist_50_kpcs_tcrs.tsv
 making conga_tcrdist_clones_AB.dist_50_kpcs_tcrdists.txt
 ........
-running KernelPCA with None kernel distance matrix shape= (832, 832) D.max()= 984.0 force_Dmax= None
+running KernelPCA with None kernel distance matrix shape= (831, 831) D.max()= 981.0 force_Dmax= None
 writing TCRdist kernel PCs to outfile: conga_tcrdist_clones_AB.dist_50_kpcs
 If this all worked you should be able to pass conga_tcrdist_clones.tsv as the --clones_file argument to run_conga.py
 DONE

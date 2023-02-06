@@ -3,8 +3,8 @@ library(ggplot2)
 library(ggrepel)
 setwd('/lustre/scratch117/cellgen/team205/cs42/VDJ_collab_manuscript/')
 
-results = read.csv('csv/LR_results.csv',row.names = 1)
-results_pbmc = read.csv('csv/LR_results_combined.csv',row.names = 1)
+results = read.csv('csv/LR_results_110123.csv',row.names = 1)
+results_pbmc = read.csv('csv/LR_results_combined_110123.csv',row.names = 1)
 sig_pbmc_list = rownames(results_pbmc[results_pbmc$adj_pval<0.05,])
 
 # add a column of j_multimapper
@@ -61,10 +61,13 @@ for (i in 1:length(down_list)){
 # remove entries that were both in increase or decrease list - only IGHJ6 is 
 up_list_update = unique(up_list[!up_list %in% down_list])
 down_list_update = unique(down_list[!down_list %in% up_list])
-cat(up_list_update, file='csv/j_multimapper_increase.txt', sep='\n')
-cat(down_list_update, file='csv/j_multimapper_decrease.txt', sep='\n')
+#cat(up_list_update, file='csv/j_multimapper_increase.txt', sep='\n')
+#cat(down_list_update, file='csv/j_multimapper_decrease.txt', sep='\n')
+cat(up_list_update, file='csv/j_multimapper_increase_11012023.txt', sep='\n')
+cat(down_list_update, file='csv/j_multimapper_decrease_11012023.txt', sep='\n')
+cat(c(up_list_update,down_list_update), file = 'csv/j_multimapper_total_11012023.txt', sep='\n')
 
-# 26 out of 27 significant Js from PBMC data are also significant in panfetal data
+# 24 out of 27 significant Js from PBMC data are also significant in panfetal data
 diff_j_list_pbmc = results_pbmc[results_pbmc$adj_pval<0.05 & startsWith(rownames(results_pbmc), 'j_call_leftmost'),]
 rownames(diff_j_list_pbmc) %in% rownames(diff_j_list)
 

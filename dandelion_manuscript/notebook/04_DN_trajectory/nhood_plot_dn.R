@@ -1,7 +1,7 @@
 ### Plotting nhood graph with proper legend
 
 # load libraries
-install.packages('ggraph')
+#install.packages('ggraph')
 library(ggraph)
 library(igraph)
 

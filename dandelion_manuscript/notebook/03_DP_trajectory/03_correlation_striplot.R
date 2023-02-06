@@ -1,4 +1,5 @@
 library(ggplot2)
+library(ggrepel)
 
 setwd('/lustre/scratch117/cellgen/team205/cs42/VDJ_collab_manuscript/')
 
@@ -36,8 +37,9 @@ ggplot(data=resu_melt, aes(x=pseudotime, y=cor,col=significantly_correlated), la
   scale_x_discrete(labels=c("tcr" = "VDJ pseudotime", "gex" = "GEX pseudotime"))
 
 # only plot background dots 
-resu_melt1 = resu_melt
-resu_melt1$significantly_correlated[resu_melt1$significantly_correlated %in% c('NO','NEGATIVE','POSITIVE')] = NaN 
+#resu_melt1 = resu_melt
+#resu_melt1$significantly_correlated[resu_melt1$significantly_correlated %in% c('NO','NEGATIVE','POSITIVE')] = NaN 
+resu_melt1 = resu_melt[resu_melt$significantly_correlated=='others',]
 #resu_melt1$significantly_correlated = factor(resu_melt1$significantly_correlated, levels = c('NO','NEGATIVE','POSITIVE'))
 
 pdf(paste0('/home/jovyan/mount/gdrive/VDJ_collab/plots_output/chenqu_jhub/',"cor_volcano_plot_background.pdf"),width=6, height=6)
@@ -48,12 +50,14 @@ ggplot(data=resu_melt1, aes(x=pseudotime, y=cor,col=significantly_correlated), l
   geom_text_repel(label=resu_melt1$label)+
   xlab('')+
   ylab('correlation coefficient')+ 
+  ylim(min(resu_melt$cor)-0.1,max(resu_melt$cor)+0.1)+
   scale_x_discrete(labels=c("tcr" = "VDJ pseudotime", "gex" = "GEX pseudotime"))
 dev.off()
 
 # put others as NaN and plot the colored dots
-resu_melt2 = resu_melt
-resu_melt2$significantly_correlated[resu_melt2$significantly_correlated=='others'] = NaN 
+#resu_melt2 = resu_melt
+#resu_melt2$significantly_correlated[resu_melt2$significantly_correlated=='others'] = NaN 
+resu_melt2 = resu_melt[resu_melt$significantly_correlated!='others',]
 resu_melt2$significantly_correlated = factor(resu_melt2$significantly_correlated, levels = c('NO','NEGATIVE','POSITIVE'))
 
 pdf(paste0('/home/jovyan/mount/gdrive/VDJ_collab/plots_output/chenqu_jhub/',"cor_volcano_plot.pdf"),width=6, height=6)
@@ -64,5 +68,6 @@ ggplot(data=resu_melt2, aes(x=pseudotime, y=cor,col=significantly_correlated), l
   geom_text_repel(label=resu_melt2$label)+
   xlab('')+
   ylab('correlation coefficient')+ 
+  ylim(min(resu_melt$cor)-0.1,max(resu_melt$cor)+0.1)+
   scale_x_discrete(labels=c("tcr" = "VDJ pseudotime", "gex" = "GEX pseudotime"))
 dev.off()
