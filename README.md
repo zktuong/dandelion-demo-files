@@ -12,7 +12,11 @@
 This folder contains the demo files for running `Dandelion`'s tutorials.
 
 ## dandelion_manuscript
-This folder contains the files that will accompany `Dandelion`'s manuscript.
+This folder contains the files that accompanies `Dandelion`'s manuscripts.
+
+*Dandelion uses single cell adaptive immune receptor repertoire to explore lymphocyte developmental origins
+Chenqu Suo, Krzysztof Polanski, Emma Dann, Rik GH Lindeboom, Roser Vilarrasa-Blasi, Roser Vento-Tormo, Muzlifah Haniffa, Kerstin B Meyer, Lisa M Dratva, Zewen Kelvin Tuong, Menna R Clatworthy, Sarah A Teichmann.
+Nature Biotechnology 2023.04.13; doi:https://doi.org/10.1038/s41587-023-01734-7*
 
 *Single cell antigen receptor analysis reveals lymphocyte developmental origins
 Chenqu Suo, Krzysztof Polanski, Emma Dann, Rik G.H. Lindeboom, Roser Vilarrasa Blasi, Roser Vento-Tormo, Muzlifah Haniffa, Kerstin B Meyer, Zewen Kelvin Tuong, Menna R. Clatworthy, Sarah Teichmann
